@@ -5,7 +5,6 @@ import Texts from "./components/Texts";
 import Tabs from "./components/Tabs";
 import Range from "./components/Range";
 import Reviews from "./components/Reviews";
-import Pillow from "./components/Pillow";
 import PillowReinvented from "./components/Reinvented";
 import Founder from "./components/Founder";
 import Hyoumankind from "./components/Hyoumankind";

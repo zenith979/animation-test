@@ -124,19 +124,6 @@ export default function Range() {
   const [tabIndex, setTabIndex] = useState(0);
   // for swiper index
   const [activeIndex, setActiveIndex] = useState(0);
-  const marqueeVariants = {
-    animate: {
-      x: ["0%", "-100%"],
-      transition: {
-        x: {
-          repeat: Infinity,
-          repeatType: "loop",
-          duration: 5,
-          ease: "linear",
-        },
-      },
-    },
-  };
   return (
     <div className="flex flex-col gap-5 mx-10 my-10">
       <div className="flex justify-between">
