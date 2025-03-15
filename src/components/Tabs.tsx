@@ -5,7 +5,7 @@ import {
   useMotionValue,
   useTransform,
 } from "motion/react";
-import { useEffect, useState, useRef, act } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const links = ["SLEEP", "BEAUTY", "TRAVEL", "RELAX"];
 

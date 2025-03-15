@@ -1,6 +1,10 @@
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
 .footer {
   background-image: linear-gradient(90deg, #893b67, #403a60);
 }
 .fill-white {
   filter: invert(1);
 }
+

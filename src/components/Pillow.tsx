@@ -4,7 +4,7 @@ import PillowModel from "../../Pillow.js";
 
 export default function App() {
   const targetRef = useRef<HTMLDivElement | null>(null);
-  const [scrollY, setScrollY] = useState(0);
+  const [_scrollY, setScrollY] = useState(0);
   const { scrollYProgress } = useScroll({
     target: targetRef,
     offset: ["start end", "end end"],
