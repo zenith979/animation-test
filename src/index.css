@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    position: relative;
+}
+body{
+    position: relative;
+    max-width: 100vw;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.sticky-navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.swiper-pagination{
+    position: absolute;
+    left: 18.5vw !important;
+    top: 40px !important
+}
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: black !important;
+    border-radius: 100%;
+}
+.nextNavigation, .prevNavigation{
+    position: absolute !important;
+    background-image: url(../public/arrow-left.svg) !important;
+    width: 15px !important;
+    height: 15px !important;
+    display: block !important;
+    z-index: 10 !important;
+    background-size: cover;
+    cursor: pointer;
+}
+.prevNavigation{
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nextNavigation{
+    rotate: 180deg;
+    top: 46.5%;
+    right: 40px;
+}
+.swiper-button-disabled{
+    opacity: 0.5 !important;
+    cursor: default;
+}
+.swiper-button-lock{
+    opacity: 0 !important;
+}

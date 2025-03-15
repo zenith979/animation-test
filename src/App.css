@@ -1,0 +1,6 @@
+.footer {
+  background-image: linear-gradient(90deg, #893b67, #403a60);
+}
+.fill-white {
+  filter: invert(1);
+}
