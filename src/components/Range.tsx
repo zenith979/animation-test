@@ -129,7 +129,10 @@ export default function Range() {
           {tabs.map((tab, index) => (
             <button
               key={tab.name + index}
-              onClick={() => setTabIndex(index)}
+              onClick={() => {
+                setTabIndex(index);
+                setActiveIndex(0);
+              }}
               className={clsx(
                 "py-2.5 px-3 rounded-[36px] text-black text-sm tracking-wide duration-500",
                 index === tabIndex && " bg-purple-800 text-white"

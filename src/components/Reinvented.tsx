@@ -26,10 +26,8 @@ export default function PillowReinvented() {
           LEARN MORE
         </button>
       </div>
-      <div className="absolute top-10">
+      <div className="absolute top-10 w-full h-fit mx-auto">
         <svg
-          width="1440"
-          height="565"
           viewBox="0 0 1440 565"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
